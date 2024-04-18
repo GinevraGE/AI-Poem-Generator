@@ -7,22 +7,27 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>AI Poem Generator</header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>the poem will go here</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator </h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">the poem will go here</div>
+      </main>
 
-    <script src="src/index.js"></script>
+      <script src="src/index.js"></script>
+   
   </body>
   <footer>
     This site is coded by
@@ -36,4 +41,5 @@
       >Netlify</a
     >
   </footer>
+   </div>
 </html>
