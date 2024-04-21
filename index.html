@@ -15,10 +15,11 @@
         <h1>AI Poem Generator </h1>
       </header>
       <main>
+        <div class="form-container">
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="enter the topic of the poem"
+            placeholder="Request for a Romantic Poem"
             autofocus
             required
             autocomplete="off"
@@ -26,12 +27,14 @@
             id="user-instructions"
           />
           <input type="submit" class="submit-button" />
+         
         </form>
-        <div class="poem" id="poem"></div>
+         <div class="hint">i.e my endless love, my sweetheart, karmic love...</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <script src="src/index.js"></script>
-   
   </body>
   <footer>
     This site is coded by
