@@ -19,7 +19,7 @@ function generatePoem(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `⏳ Generating a romantic poem about<div class="generating">... ${instructionsInput.value}</div>`;
+  poemElement.innerHTML = `⏳ Generating a romantic poem about<scan class="generating">... ${instructionsInput.value}</scan>`;
 
   axios.get(apiUrl).then(displayNewPoem);
 }
